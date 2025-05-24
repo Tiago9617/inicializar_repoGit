@@ -1,0 +1,5 @@
+git add . agrega todos los cambios que se realizaran a stage
+git tag "se pone el nombre del tag para darle un alias al commit"
+git log me eentrega todos los commit que he realizado el tiempo
+git checkout puedo poner el codigo consecutivo del commit o poner el tag para hacerlo mas sencillo
+git checkout main me permite volver al estado presente del proyecto 
