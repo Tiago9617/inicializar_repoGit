@@ -3,3 +3,16 @@ git tag "se pone el nombre del tag para darle un alias al commit"
 git log me eentrega todos los commit que he realizado el tiempo
 git checkout puedo poner el codigo consecutivo del commit o poner el tag para hacerlo mas sencillo
 git checkout main me permite volver al estado presente del proyecto 
+
+…or create a new repository on the command line
+echo "# inicializar_repoGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tiago9617/inicializar_repoGit.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Tiago9617/inicializar_repoGit.git
+git branch -M main
+git push -u origin main
